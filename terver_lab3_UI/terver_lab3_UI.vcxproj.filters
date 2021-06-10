@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\PointsStructures">
+      <UniqueIdentifier>{a3368c03-4ff4-4fdb-80c3-ab5baa3e7af2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PointStructures">
+      <UniqueIdentifier>{db2e521f-6607-4607-835d-6850c06771e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ChartManagement">
+      <UniqueIdentifier>{cf920631-8f51-4ae7-a8b2-3f26b4bb0ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ChartManagement">
+      <UniqueIdentifier>{80f40d1b-22af-45dd-957d-a3835409bd57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Functions">
+      <UniqueIdentifier>{49896bef-8a54-4c2d-8c80-e4c3a19abb62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Functions">
+      <UniqueIdentifier>{10c93fc0-a3aa-4282-ac61-1363d71e2fcb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="conv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myPoint.cpp">
+      <Filter>Source Files\PointsStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="myPointSeries.cpp">
+      <Filter>Source Files\PointsStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphManager.cpp">
+      <Filter>Source Files\ChartManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Func.cpp">
+      <Filter>Source Files\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel_density_estimation.cpp">
+      <Filter>Source Files\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Rnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="histogramify.cpp">
+      <Filter>Source Files\PointsStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="rangeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="true_norm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="conv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myPoint.h">
+      <Filter>Header Files\PointStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="myPointSeries.h">
+      <Filter>Header Files\PointStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphManager.h">
+      <Filter>Header Files\ChartManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Func.h">
+      <Filter>Header Files\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel_density_estimation.h">
+      <Filter>Header Files\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Rnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="histogramify.h">
+      <Filter>Header Files\PointStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="rangeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="true_norm.h">
+      <Filter>Header Files\Functions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
